@@ -1,73 +1,79 @@
 <!-- Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,50:E100FF,100:FF6FD8&height=200&section=header&text=María%20Paula%20Estupiñán&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=DevRel%20•%20Web3%20•%20Comunidad%20LatAm&descAlignY=56&descSize=18&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:ff2e97,100:ff79c6&height=220&section=header&text=%3Cmestupinanm%2F%3E&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=42&desc=developer%20%E2%80%A2%20web3%20%E2%80%A2%20creative%20coder&descSize=18&descAlignY=62&animation=twinkling&stroke=ff2e97&strokeWidth=1" />
 
-<!-- Texto animado -->
 <p align="center">
-  <a href="https://github.com/mestupinanm">
-    <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1000&color=E100FF&center=true&vCenter=true&width=600&lines=¡Hola!+Soy+María+Paula+👋;DevRel+Associate+%40+BAF+🚀;Construyo+comunidad+Web3+en+LatAm+🌎;Stellar+%E2%80%A2+Soroban+%E2%80%A2+Hackathons+✨;Ingeniera+de+Sistemas+%40+Uniandes+🎓" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=FF2E97&center=true&vCenter=true&width=650&lines=%3E+booting+mariapaula.exe...;%3E+hola+mundo+%F0%9F%92%97;%3E+building+on+stellar+%2B+soroban;%3E+typescript+%7C+react+%7C+rust;%3E+arte+generativo+%2B+hardware+%E2%9C%A8" alt="typing" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mestupinanm&style=for-the-badge&color=7F00FF&label=VISITAS" />
+  <img src="https://komarev.com/ghpvc/?username=mestupinanm&style=for-the-badge&color=ff2e97&label=PROFILE+VIEWS" />
+  <img src="https://img.shields.io/badge/status-coding-ff2e97?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/location-Bogot%C3%A1%2C%20CO-ff79c6?style=for-the-badge&logo=googlemaps&logoColor=white" />
 </p>
 
 ---
 
-## 💜 Sobre mí
+<h2>💗 <code>whoami</code></h2>
 
-<img align="right" width="300" src="https://raw.githubusercontent.com/mestupinanm/mestupinanm/output/snake.svg" />
+<img align="right" width="340" src="https://raw.githubusercontent.com/mestupinanm/mestupinanm/output/snake.svg" />
 
-Soy **Ingeniera de Sistemas** de la Universidad de los Andes y trabajo como **DevRel Associate** en la **Blockchain Acceleration Foundation (BAF)**, desde Bogotá 🇨🇴.
-
-Mi trabajo es conectar a los desarrolladores con la tecnología: **escribo documentación, doy talleres, organizo hackathons** y construyo las herramientas que hacen que todo funcione detrás de escena.
-
-- 🌎 Hago crecer la comunidad de builders de **Stellar** en Latinoamérica
-- 🧑‍🏫 Acompaño bootcamps como **BB101**, desde la primera línea de código hasta el demo day
-- 🏆 Construí la app de jurados y el podio de ganadores de **Código Cordillera**
-- 📚 Escribo docs para que aprender Web3 sea más fácil (¡y en español!)
-- 🎨 En mis ratos libres hago **arte generativo** con Processing y cacharreo con **Arduino**
+```ts
+const mariaPaula = {
+  role:      "Developer & DevRel",
+  education: "Ingeniería de Sistemas @ Uniandes 🎓",
+  location:  "Bogotá, Colombia 🇨🇴",
+  focus:     ["Web3", "Stellar", "Soroban", "Developer Experience"],
+  code:      ["TypeScript", "React", "Next.js", "Angular", "Python", "Rust"],
+  loves:     ["hackathons", "docs claras", "comunidad tech LatAm"],
+  sideQuest: ["arte generativo con Processing", "hardware con Arduino"],
+  status:    "always shipping 🚀",
+};
+```
 
 <br clear="right"/>
 
 ---
 
-## 🛠️ Con qué trabajo
+<h2>⚡ <code>tech_stack</code></h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,angular,html,css,tailwind,python,java,rust,git,github,vercel,figma,arduino,processing&perline=9" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,angular,html,css,tailwind,nodejs&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,java,rust,git,github,vercel,figma,arduino,processing&theme=dark" />
 </p>
 
 ---
 
-## ✨ Proyectos destacados
+<h2>🛸 <code>featured_repos</code></h2>
 
 <p align="center">
   <a href="https://github.com/mestupinanm/ProyectoBase">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mestupinanm&repo=ProyectoBase&theme=radical&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mestupinanm&repo=ProyectoBase&bg_color=0d1117&title_color=ff2e97&icon_color=ff79c6&text_color=f8f8f2&border_color=ff2e97" />
   </a>
   <a href="https://github.com/mestupinanm/dapp-angular-taller">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mestupinanm&repo=dapp-angular-taller&theme=radical&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mestupinanm&repo=dapp-angular-taller&bg_color=0d1117&title_color=ff2e97&icon_color=ff79c6&text_color=f8f8f2&border_color=ff2e97" />
   </a>
 </p>
 
 ---
 
-## 📊 Mi actividad
+<h2>📡 <code>git log --stats</code></h2>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mestupinanm&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mestupinanm&layout=compact&theme=radical&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mestupinanm&show_icons=true&count_private=true&bg_color=0d1117&title_color=ff2e97&icon_color=ff79c6&text_color=f8f8f2&border_color=ff2e97" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mestupinanm&layout=compact&bg_color=0d1117&title_color=ff2e97&text_color=f8f8f2&border_color=ff2e97" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mestupinanm&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=mestupinanm&background=0d1117&border=ff2e97&ring=ff2e97&fire=ff79c6&currStreakNum=f8f8f2&sideNums=f8f8f2&currStreakLabel=ff2e97&sideLabels=ff79c6&dates=c9a0b8" />
+</p>
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mestupinanm&bg_color=0d1117&color=ff79c6&line=ff2e97&point=ffffff&area=true&area_color=ff2e97&hide_border=true&title_color=ff2e97" />
 </p>
 
 ---
 
-<p align="center">
-  <b>🤝 ¿Quieres construir algo en Web3, organizar un taller o simplemente hablar de tecnología?</b><br/>
-  ¡Escríbeme! Siempre estoy feliz de conocer gente nueva 💜
-</p>
+```bash
+$ echo "¿hablamos de código, web3 o arte generativo?"
+> abre un issue o escríbeme 💗
+```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6FD8,50:E100FF,100:7F00FF&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff79c6,50:ff2e97,100:0d1117&height=110&section=footer" />
