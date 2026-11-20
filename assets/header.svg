@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07060d"/>
+      <stop offset="0.6" stop-color="#140818"/>
+      <stop offset="1" stop-color="#2a0a22"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff79c6"/>
+      <stop offset="1" stop-color="#ff2e97"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.35"/>
+    </pattern>
+    <clipPath id="floor"><rect x="0" y="210" width="1200" height="110"/></clipPath>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:'Fira Code','JetBrains Mono',Consolas,'Courier New',monospace}
+    .title{font-size:64px;font-weight:700;letter-spacing:4px}
+    .g1{fill:#00f0ff;opacity:.75;animation:gA 3s infinite steps(1)}
+    .g2{fill:#ff2e97;opacity:.85;animation:gB 3s infinite steps(1)}
+    @keyframes gA{0%,88%,100%{transform:translate(0,0)}90%{transform:translate(-5px,2px)}93%{transform:translate(4px,-2px)}96%{transform:translate(-2px,0)}}
+    @keyframes gB{0%,88%,100%{transform:translate(0,0)}90%{transform:translate(5px,-2px)}93%{transform:translate(-4px,2px)}96%{transform:translate(3px,1px)}}
+    .grid{animation:move 1.6s linear infinite}
+    @keyframes move{from{transform:translateY(0)}to{transform:translateY(22px)}}
+    .blink{animation:bl 1.2s infinite steps(1)}
+    @keyframes bl{50%{opacity:0}}
+    .fade{opacity:0;animation:fd 1s 0.6s forwards}
+    @keyframes fd{to{opacity:1}}
+    .bar{animation:ld 2.4s ease-out forwards;transform-origin:left;transform:scaleX(0)}
+    @keyframes ld{to{transform:scaleX(1)}}
+    .sweep{animation:sw 4s linear infinite}
+    @keyframes sw{from{transform:translateY(-40px)}to{transform:translateY(340px)}}
+  </style>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- retro sun -->
+  <g opacity="0.55">
+    <circle cx="600" cy="215" r="120" fill="url(#sun)"/>
+    <g fill="#07060d">
+      <rect x="470" y="150" width="260" height="4"/>
+      <rect x="470" y="168" width="260" height="6"/>
+      <rect x="470" y="186" width="260" height="8"/>
+      <rect x="470" y="203" width="260" height="10"/>
+    </g>
+  </g>
+
+  <!-- perspective floor grid -->
+  <g clip-path="url(#floor)" stroke="#ff2e97" stroke-width="1.2" opacity="0.7">
+    <rect x="0" y="210" width="1200" height="110" fill="#0b0510"/>
+    <g class="grid">
+      <line x1="0" y1="188" x2="1200" y2="188"/><line x1="0" y1="210" x2="1200" y2="210"/>
+      <line x1="0" y1="232" x2="1200" y2="232"/><line x1="0" y1="254" x2="1200" y2="254"/>
+      <line x1="0" y1="276" x2="1200" y2="276"/><line x1="0" y1="298" x2="1200" y2="298"/>
+      <line x1="0" y1="320" x2="1200" y2="320"/>
+    </g>
+    <line x1="600" y1="210" x2="600" y2="320"/>
+    <line x1="560" y1="210" x2="440" y2="320"/><line x1="640" y1="210" x2="760" y2="320"/>
+    <line x1="520" y1="210" x2="280" y2="320"/><line x1="680" y1="210" x2="920" y2="320"/>
+    <line x1="480" y1="210" x2="120" y2="320"/><line x1="720" y1="210" x2="1080" y2="320"/>
+    <line x1="440" y1="210" x2="-40" y2="320"/><line x1="760" y1="210" x2="1240" y2="320"/>
+    <line x1="400" y1="210" x2="-200" y2="320"/><line x1="800" y1="210" x2="1400" y2="320"/>
+  </g>
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#ff79c6" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- HUD corners -->
+  <g stroke="#ff2e97" stroke-width="2" fill="none">
+    <path d="M24 54 V24 H54"/><path d="M1146 24 H1176 V54"/>
+    <path d="M24 266 V296 H54"/><path d="M1176 266 V296 H1146"/>
+  </g>
+
+  <!-- HUD text -->
+  <g class="mono" font-size="13" fill="#ff79c6">
+    <text x="44" y="48">SYS://MESTUPINANM</text>
+    <text x="44" y="66" fill="#8a5a78">BUILD 2026.11 · KERNEL TS/RUST</text>
+    <text x="1156" y="48" text-anchor="end"><tspan class="blink" fill="#ff2e97">●</tspan> ONLINE</text>
+    <text x="1156" y="66" text-anchor="end" fill="#8a5a78">04.71°N  74.07°W · BOG</text>
+    <text x="44" y="284" fill="#8a5a78">LOADING MODULES</text>
+    <text x="1156" y="284" text-anchor="end" fill="#8a5a78">WEB3 · STELLAR · SOROBAN</text>
+  </g>
+  <rect x="180" y="276" width="160" height="8" fill="none" stroke="#5c1a3d"/>
+  <rect x="181" y="277" width="158" height="6" fill="#ff2e97" class="bar"/>
+
+  <!-- glitch title -->
+  <g class="mono title" text-anchor="middle">
+    <text x="600" y="150" class="g1">&lt;mestupinanm/&gt;</text>
+    <text x="600" y="150" class="g2">&lt;mestupinanm/&gt;</text>
+    <text x="600" y="150" fill="#ffffff" filter="url(#glow)">&lt;mestupinanm/&gt;</text>
+  </g>
+  <text x="600" y="188" text-anchor="middle" class="mono fade" font-size="18" fill="#ff79c6" letter-spacing="3">// developer · devrel · creative coder</text>
+
+  <!-- scanlines + sweep -->
+  <rect width="1200" height="320" fill="url(#scan)"/>
+  <rect class="sweep" x="0" y="0" width="1200" height="40" fill="#ff79c6" opacity="0.05"/>
+</svg>
